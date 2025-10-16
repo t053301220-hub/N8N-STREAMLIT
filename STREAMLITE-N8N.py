@@ -360,7 +360,7 @@ with col2:
 
 # Ingreso de clave de respuestas
 st.subheader("🔑 Clave de Respuestas")
-st.info("📝 **Formato:** 1**:**a, 2**:**d, 3**:**e, 4**:**v, 5**:**f (separados por comas)")
+st.info("📝 **Formato:** 1:**a, 2**:**d, 3**:**e, 4**:**v, 5**:f (separados por comas)")
 
 clave_input = st.text_area(
     "Ingresa las respuestas correctas:",
@@ -679,3 +679,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
