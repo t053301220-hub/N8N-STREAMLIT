@@ -360,7 +360,7 @@ with col2:
 
 # Ingreso de clave de respuestas
 st.subheader("🔑 Clave de Respuestas")
-st.info("📝 **Formato:** 1:a, 2:d, 3:e, 4:v, 5:f (separados por comas)")
+st.info("📝 **Formato:** 1**:**a, 2**:**d, 3**:**e, 4**:**v, 5**:**f (separados por comas)")
 
 clave_input = st.text_area(
     "Ingresa las respuestas correctas:",
@@ -677,4 +677,5 @@ st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem;'>
     <p><strong>Sistema de Calificación Automática</strong> | Desarrollado con ❤️ usando Streamlit</p>
 </div>
+
 """, unsafe_allow_html=True)
